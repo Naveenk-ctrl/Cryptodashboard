@@ -26,7 +26,7 @@ const App = () => {
     
   return (
     <div className='container'>
-      <h1 className='head'>CRYPTO PRICE TRACKING</h1>
+      <h1 className='head'>CRYPTO Dashboard</h1>
       <input  type="text" placeholder="Search crypto.."  value={search}  onChange={(e)=>setSearch(e.target.value)}  className="in1"/>
       <table className='tb1'>
         <thead className='th1'>
